@@ -1,0 +1,14 @@
+metros = float (input('Digite o número que você quer converter nas unidades de comprimento: '))
+dec = 10
+hec = 100
+km = 1000
+dm = 0.01
+cent = 0.01
+mil= 0.001
+calc1 = metros * dec
+calc2 = metros * hec
+calc3 = metros * km
+calc4 = metros * dm
+calc5 = metros * cent
+calc6 = metros * mil
+print('O valor desse número em metros é {} e convertendo nas unidades, ele representa {} decâmetros, {} hectômetros, {} km, {} decímetros, {} centímetros, {} milimetros'. format(metros, calc1, calc2, calc3,calc4,calc5,calc6), end='')
